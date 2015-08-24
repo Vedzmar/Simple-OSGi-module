@@ -1,0 +1,6 @@
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: com.epam.trainings.client
+Bundle-Version: 1.0.0
+Bundle-Name: Client Bundle
+Import-Package: org.osgi.framework, com.epam.trainings; version="[1.0.0,2.0.0)"
+Bundle-Activator: com.epam.trainings.activator.Activator
