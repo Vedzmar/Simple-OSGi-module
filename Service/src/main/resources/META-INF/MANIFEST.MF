@@ -1,7 +1,14 @@
+Bundle-Name: Simple Imported Service Bundle
+Bundle-Description: Simple Bundle that import package with class
+Bundle-DocURL: http://www.manning.com/osgi-in-action/
+Bundle-Category: trainings
+Bundle-Vendor: epam-trainings
+Bundle-ContactAddress: 1234 Main Street, Gomel
+Bundle-Copyright: Epam Trainings
 Bundle-ManifestVersion: 2
 Bundle-SymbolicName: com.epam.trainings.service
 Bundle-Version: 1.0.0
-Bundle-Name: Simple Imported Service Bundle
 Import-Package: org.osgi.framework, com.epam.trainings; version="[1.0.0,2.0.0)"
 Export-Package: com.epam.trainings; version="1.0.0"
-Bundle-Activator: com.epam.traings.activator.Activator
+Bundle-Activator: com.epam.trainings.activator.Activator
+Bundle-ClassPath: .
